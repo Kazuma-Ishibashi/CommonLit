@@ -37,7 +37,7 @@ CommonLit、Inc。は、2,000万人を超える教師と生徒に、3年生か�
 - target -読みやすさ
 - standard_error-各抜粋の複数の評価者間のスコアの広がりの尺度。テストデータには含まれていません。
 
-- Train.CSV
+#### Train.CSV
 No. |  Column |  Non-Null Count | Dtype  
 -- | ----------- |  --------- | -----  
  0 |  id  |            2834 non-null |  object 
@@ -47,7 +47,7 @@ No. |  Column |  Non-Null Count | Dtype
  4 |  target      |    2834 non-null |  float64
  5 |  standard_error | 2834 non-null |  float64
 
-- Test.CSV
+#### Test.CSV
 No. |  Column |  Non-Null Count | Dtype  
 -- | ----------- |  --------- | -----  
 0   |id   |      7 non-null   |   object
@@ -60,3 +60,13 @@ No. | Name | Status | Detail | Date | URL
 --- | ---- | ------ | ------ | ---- | ---
 1|Getting started with Time Series using Pandas|ToDo|TimeSeries取り扱いnotebook|21/01/22|[url](https://www.kaggle.com/parulpandey/getting-started-with-time-series-using-pandas)
 2|Time Series Analysis | ToDo | An Introductory Start(NoteBook) | 21/01/22 | [url](https://www.kaggle.com/janiobachmann/time-series-analysis-an-introductory-start)
+
+## NoteBook
+### CommonLit_001
+ベースライン 0.760
+[TF-IDF_XGBOOST](https://www.kaggle.com/w1023672708/tfidf-xgboost)
+
+### CommonLit_002[url](https://www.kaggle.com/kazumaishibashi/commonlit-002)
+Public 0.747
+- 特徴量にワードカウント追加
+- Testデータが少ないのでCVstrategyを先に考える

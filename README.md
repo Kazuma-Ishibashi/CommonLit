@@ -63,10 +63,11 @@ No. | Name | Status | Detail | Date | URL
 
 ## NoteBook
 ### CommonLit_001
-ベースライン 0.760
+Public 0.760
+- ベースライン
 [TF-IDF_XGBOOST](https://www.kaggle.com/w1023672708/tfidf-xgboost)
 
-### CommonLit_002[url](https://www.kaggle.com/kazumaishibashi/commonlit-002)
+### CommonLit_002[(url)](https://www.kaggle.com/kazumaishibashi/commonlit-002)
 Public 0.747
 - 特徴量にワードカウント追加
 - Testデータが少ないのでCVstrategyを先に考える

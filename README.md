@@ -63,11 +63,21 @@ No. | Name | Status | Detail | Date | URL
 
 ## NoteBook
 ### CommonLit_001
+21/06/25
 Public 0.760
 - ベースライン
 [TF-IDF_XGBOOST](https://www.kaggle.com/w1023672708/tfidf-xgboost)
 
 ### CommonLit_002[(url)](https://www.kaggle.com/kazumaishibashi/commonlit-002)
+21/06/26
 Public 0.747
 - 特徴量にワードカウント追加
 - Testデータが少ないのでCVstrategyを先に考える
+- [StratifiedShuffleSplit](https://www.kaggle.com/kazumaishibashi/train-val-split/edit)
+
+### CommonLit_003[(url)](https://www.kaggle.com/kazumaishibashi/commonlit-003)
+21/06/26
+val 0.413
+Public 0.760
+- validation追加
+- train_dataのみでtfidf

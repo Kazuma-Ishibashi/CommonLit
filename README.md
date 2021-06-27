@@ -84,8 +84,11 @@ Public 0.760
 - valの予測は意外と良くできている
 <img width="406" alt="スクリーンショット 2021-06-27 6 51 26" src="https://user-images.githubusercontent.com/65795828/123526619-19f90500-d714-11eb-89c1-207b36b9d864.png">
 
-### CommonLit_004[(url)](https://www.kaggle.com/kazumaishibashi/commonlit-003)
+### CommonLit_004[(url)](https://www.kaggle.com/kazumaishibashi/commonlit-004)
 21/06/26
-val 0.413
-Public 0.760
-- validation追加
+
+ver1:LGBM, val=StratifiedKFold(n_splits=5,shuffle=True,random_state=42), 上記StratifiedShuffleSplitで作成したtrainデータでtfidfコーパス作成
+- val 0.766, Public 0.733
+
+ver2:全てのtrainデータでtfidfコーパス作成
+- val 0.763, Public 0.734

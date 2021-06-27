@@ -81,3 +81,11 @@ val 0.413
 Public 0.760
 - validation追加
 - train_dataのみでtfidf
+- valの予測は意外と良くできている
+<img width="406" alt="スクリーンショット 2021-06-27 6 51 26" src="https://user-images.githubusercontent.com/65795828/123526619-19f90500-d714-11eb-89c1-207b36b9d864.png">
+
+### CommonLit_004[(url)](https://www.kaggle.com/kazumaishibashi/commonlit-003)
+21/06/26
+val 0.413
+Public 0.760
+- validation追加

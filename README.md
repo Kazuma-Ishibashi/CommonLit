@@ -92,3 +92,28 @@ ver1:LGBM, val=StratifiedKFold(n_splits=5,shuffle=True,random_state=42), 上記S
 
 ver2:全てのtrainデータでtfidfコーパス作成
 - val 0.763, Public 0.734
+
+### CommonLit_005[(url)](https://www.kaggle.com/kazumaishibashi/commonlit-005)
+21/06/30
+
+- アルファベットの数,文の数(ピリオドの個数), 一文の平均の長さ
+- val 0.7427, Public 0.715
+
+### CommonLit_006[(url)](https://www.kaggle.com/kazumaishibashi/commonlit-006)
+21/07/01：特徴量を色々変えてみる
+
+ver1
+- 単語の数,文の数(ピリオドの個数), 一文の平均の長さ
+- val 0.7538, Public 0.736
+
+ver2
+- 単語の数,単語の平均長さ, 文の数(ピリオドの個数), 一文の平均の長さ
+- val 0.7356, Public
+
+ver3
+- 単語の数,単語の平均長さ, 文の数(ピリオドの個数), 一文の平均の長さ, アルファベットの数
+- val 0.7354, Public
+
+ver4
+- 単語の数,単語の平均長さ, 文の数(ピリオドの個数), 一文の平均の長さ, 大文字の数
+- val 0.7303, Public
